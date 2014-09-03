@@ -274,7 +274,7 @@ public class AudioPlayer implements OnCompletionListener, OnPreparedListener, On
      */
     public void onCompletion(MediaPlayer player) {
         Log.d(LOG_TAG, "on completion is calling stopped");
-        this.setState(STATE.MEDIA_STOPPED);
+        this.setState(STATE.MEDIA_FINISH);
     }
 
     /**
