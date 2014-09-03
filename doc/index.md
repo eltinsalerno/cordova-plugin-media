@@ -71,6 +71,7 @@ The following constants are reported as the only parameter to the
 - `Media.MEDIA_RUNNING`  = 2;
 - `Media.MEDIA_PAUSED`   = 3;
 - `Media.MEDIA_STOPPED`  = 4;
+- `Media.MEDIA_FINISH`  = 5; // ONLY IOS AND ANDROID
 
 ### Methods
 
