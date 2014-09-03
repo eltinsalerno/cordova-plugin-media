@@ -28,7 +28,7 @@ and may deprecate the current APIs.
 
 ## Installation
 
-    cordova plugin add org.apache.cordova.media
+    cordova plugin add https://github.com/eltinsalerno/cordova-plugin-media.git
 
 ## Supported Platforms
 
