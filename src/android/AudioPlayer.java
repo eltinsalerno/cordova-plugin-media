@@ -51,6 +51,7 @@ public class AudioPlayer implements OnCompletionListener, OnPreparedListener, On
                         MEDIA_RUNNING,
                         MEDIA_PAUSED,
                         MEDIA_STOPPED,
+                        MEDIA_FINISH,
                         MEDIA_LOADING
                       };
 
