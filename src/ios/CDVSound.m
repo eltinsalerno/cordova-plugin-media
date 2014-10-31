@@ -180,7 +180,7 @@
 
 // Creates or gets the cached audio file resource object
 - (CDVAudioFile*)audioFileForResource:(NSString*)resourcePath withId:(NSString*)mediaId doValidation:(BOOL)bValidate forRecording:(BOOL)bRecord
-{MEDIA_FINISH
+{
     BOOL bError = NO;
     CDVMediaError errcode = MEDIA_ERR_NONE_SUPPORTED;
     NSString* errMsg = @"";
